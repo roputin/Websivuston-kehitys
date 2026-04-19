@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ensimmäinen HTML Sivu</title>
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: lightgray;
+        }
+        h1 {
+            font-size: 2em;
+        }
+        p {
+            color: blue;
+        }
+        .content-box {
+            padding: 20px;
+            margin: 10px;
+            background-color: #000000;
+            border: 1px solid #ccc;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #fb0303;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #ffffff;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"] {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <!-- External CSS link -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Inline CSS on h1 -->
+    <h1 style="color: red;">Tervetuloa mun ekalle sivulle.</h1>
+    <p>Mun nimi on Roope. Kuvan alapuolella on lista mun nykyisiä harrastuksia.</p>
+    <img src="./IMG_Mave.jpg" alt="Tässä kuvassa nostan ensimmäistä kertaa 200 kiloa maasta. :)">
+    <h2>Harrastukset</h2>
+    <ol>
+        <li>Voimanosto</li>
+        <li>Hapanjuurileivonta</li>
+        <li>Keramiikka</li>
+        <li>Viherkasvien kasvatus</li>
+    </ol>
+    <a href="https://plnts.com/en">Kasvisivu</a>
+    <table>
+        <tr>
+            <th>Suoritetut kurssit</th>
+            <th>Keskeneräiset kurssit</th>
+        </tr>
+        <tr>
+            <td>Digitaalisen palvelun perusteet 5 op</td>
+            <td>Websivuston kehittäminen 5 op</td>
+        </tr>
+        <tr>
+            <td>Asiantuntijatyö ja projektityö 5 op</td>
+            <td>Professional Communication in English 5 op</td>
+        </tr>
+        <tr>
+            <td>ICT-infrastruktuurin ja pilvipalveluiden perusteet 5 op</td>
+            <td>Liiketoimintaympäristöt 5 op</td>
+        </tr>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
