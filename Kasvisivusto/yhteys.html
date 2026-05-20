@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yhteys | Viherkoti</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="index.html" class="logo">Viherkoti</a>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Etusivu</a></li>
+        <li><a href="kasvit.html">Kasvit</a></li>
+        <li><a href="hoito.html">Hoito-ohjeet</a></li>
+        <li><a href="galleria.html">Galleria</a></li>
+        <li><a href="yhteys.html" class="active">Yhteys</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <h1>Ota yhteyttä</h1>
+      <p>
+        Tällä sivulla voit lähettää viestin tai kysymyksen viherkasvien
+        hoitoon liittyen. Lomake on tässä projektissa visuaalinen esimerkki.
+      </p>
+    </section>
+
+    <section class="contact-section">
+      <div class="contact-info">
+        <h2>Viherkoti</h2>
+        <p>
+          Viherkoti on opiskelijaprojektina toteutettu verkkosivusto, jonka aiheena
+          on viherkasvien historia ja hoito. Sivustolla on esitelty omia suosikkikasvejani, hoito-ohjeita ja galleria.
+        </p>
+
+        <ul>
+          <li>Sähköposti: roope.koivuniemi@student.helsinki.fi</li>
+          <li>Sijainti: Helsinki</li>
+          <li>Aihe: Viherkasvit ja kasvien hoito</li>
+        </ul>
+      </div>
+
+      <form class="contact-form">
+        <label for="name">Nimi</label>
+        <input type="text" id="name" name="name" placeholder="Kirjoita nimesi">
+
+        <label for="email">Sähköposti</label>
+        <input type="email" id="email" name="email" placeholder="Kirjoita sähköpostisi">
+
+        <label for="message">Viesti</label>
+        <textarea id="message" name="message" rows="6" placeholder="Kirjoita viestisi"></textarea>
+
+        <button type="submit">Lähetä viesti</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Viherkoti. Verkkosivustoprojekti.</p>
+  </footer>
+
+</body>
+</html>
