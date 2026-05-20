@@ -323,8 +323,6 @@ img {
   margin-bottom: 12px;
 }
 
-/* Kasvikorttien linkit */
-
 .plant-card-link {
   text-decoration: none;
   color: var(--green);
